@@ -1,0 +1,42 @@
+  0%|                                                                                                                                                                                                              | 0/31260 [00:00<?, ?it/s]/home/selinawisco/.venv/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:157: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/home/selinawisco/selina_main/asr/sel_wav2vec2_asr_main/main.py", line 289, in <module>
+    train_asr(model, data_collator, processor, tokenizer,feature_extractor, train_dataset, test_dataset, compute_metrics, config)
+  File "/home/selinawisco/selina_main/asr/sel_wav2vec2_asr_main/train_asr.py", line 45, in train_asr
+    trainer.train()
+  File "/home/selinawisco/.venv/lib/python3.10/site-packages/transformers/trainer.py", line 1938, in train
+    return inner_training_loop(
+  File "/home/selinawisco/.venv/lib/python3.10/site-packages/transformers/trainer.py", line 2236, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "/home/selinawisco/.venv/lib/python3.10/site-packages/accelerate/data_loader.py", line 454, in __iter__
+    current_batch = next(dataloader_iter)
+  File "/home/selinawisco/.venv/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/selinawisco/.venv/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/selinawisco/.venv/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 54, in fetch
+    return self.collate_fn(data)
+  File "/home/selinawisco/selina_main/asr/sel_wav2vec2_asr_main/main.py", line 225, in __call__
+    batch[config.loss_feature] = loss_feature_batch
+UnboundLocalError: local variable 'loss_feature_batch' referenced before assignment
+Traceback (most recent call last):
+  File "/home/selinawisco/selina_main/asr/sel_wav2vec2_asr_main/main.py", line 289, in <module>
+    train_asr(model, data_collator, processor, tokenizer,feature_extractor, train_dataset, test_dataset, compute_metrics, config)
+  File "/home/selinawisco/selina_main/asr/sel_wav2vec2_asr_main/train_asr.py", line 45, in train_asr
+    trainer.train()
+  File "/home/selinawisco/.venv/lib/python3.10/site-packages/transformers/trainer.py", line 1938, in train
+    return inner_training_loop(
+  File "/home/selinawisco/.venv/lib/python3.10/site-packages/transformers/trainer.py", line 2236, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "/home/selinawisco/.venv/lib/python3.10/site-packages/accelerate/data_loader.py", line 454, in __iter__
+    current_batch = next(dataloader_iter)
+  File "/home/selinawisco/.venv/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/selinawisco/.venv/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/selinawisco/.venv/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 54, in fetch
+    return self.collate_fn(data)
+  File "/home/selinawisco/selina_main/asr/sel_wav2vec2_asr_main/main.py", line 225, in __call__
+    batch[config.loss_feature] = loss_feature_batch
+UnboundLocalError: local variable 'loss_feature_batch' referenced before assignment

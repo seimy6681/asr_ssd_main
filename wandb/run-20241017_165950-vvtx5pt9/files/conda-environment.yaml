@@ -1,0 +1,46 @@
+name: asr
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=2_gnu
+  - blas=1.0=openblas
+  - bzip2=1.0.8=h5eee18b_6
+  - ca-certificates=2024.7.4=hbcca054_0
+  - certifi=2024.7.4=py310h06a4308_0
+  - click=8.1.7=py310h06a4308_0
+  - cuda-version=12.6=h7480c83_3
+  - idna=3.7=pyhd8ed1ab_0
+  - jiwer=3.0.4=pyhd8ed1ab_0
+  - ld_impl_linux-64=2.38=h1181459_1
+  - libffi=3.4.4=h6a678d5_1
+  - libgcc-ng=14.1.0=h77fa898_0
+  - libgfortran-ng=11.2.0=h00389a5_1
+  - libgfortran5=11.2.0=h1234567_1
+  - libgomp=14.1.0=h77fa898_0
+  - libopenblas=0.3.21=h043d6bf_0
+  - libstdcxx-ng=14.1.0=hc0a3c3a_0
+  - libuuid=1.41.5=h5eee18b_0
+  - nccl=2.22.3.1=hbc370b7_1
+  - ncurses=6.4=h6a678d5_0
+  - numpy=1.26.4=py310heeff2f4_0
+  - numpy-base=1.26.4=py310h8a23956_0
+  - openssl=3.3.1=h4bc722e_2
+  - pexpect=4.8.0=pyhd3eb1b0_3
+  - pip=24.2=py310h06a4308_0
+  - ptyprocess=0.7.0=pyhd3eb1b0_2
+  - pydub=0.25.1=pyhd8ed1ab_0
+  - python=3.10.14=h955ad1f_1
+  - pyyaml=6.0.1=py310h5eee18b_0
+  - rapidfuzz=3.5.2=py310h6a678d5_0
+  - readline=8.2=h5eee18b_0
+  - setuptools=72.1.0=py310h06a4308_0
+  - sqlite=3.45.3=h5eee18b_0
+  - tk=8.6.14=h39e8969_0
+  - tzdata=2024a=h04d1e81_0
+  - wheel=0.43.0=py310h06a4308_0
+  - xz=5.4.6=h5eee18b_1
+  - yaml=0.2.5=h7b6447c_0
+  - zlib=1.2.13=h5eee18b_1
+prefix: /home/selinawisco/anaconda3/envs/asr

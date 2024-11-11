@@ -1,0 +1,34 @@
+  0%|                                                                                                                                                                                                              | 0/31260 [00:00<?, ?it/s]/home/selinawisco/.venv/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:157: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/home/selinawisco/selina_main/asr/sel_wav2vec2_asr_main/main.py", line 288, in <module>
+    train_asr(model, data_collator, processor, tokenizer,feature_extractor, train_dataset, test_dataset, compute_metrics, config)
+  File "/home/selinawisco/selina_main/asr/sel_wav2vec2_asr_main/train_asr.py", line 45, in train_asr
+    trainer.train()
+  File "/home/selinawisco/.venv/lib/python3.10/site-packages/transformers/trainer.py", line 1938, in train
+    return inner_training_loop(
+  File "/home/selinawisco/.venv/lib/python3.10/site-packages/transformers/trainer.py", line 2279, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/selinawisco/.venv/lib/python3.10/site-packages/transformers/trainer.py", line 3318, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/selinawisco/selina_main/asr/sel_wav2vec2_asr_main/CustomTrainer.py", line 47, in compute_loss
+    outputs = model(**inputs)
+  File "/home/selinawisco/.venv/lib/python3.10/site-packages/transformers/feature_extraction_utils.py", line 89, in __getitem__
+    raise KeyError("Indexing with integers is not available when using Python based feature extractors")
+KeyError: 'Indexing with integers is not available when using Python based feature extractors'
+Traceback (most recent call last):
+  File "/home/selinawisco/selina_main/asr/sel_wav2vec2_asr_main/main.py", line 288, in <module>
+    train_asr(model, data_collator, processor, tokenizer,feature_extractor, train_dataset, test_dataset, compute_metrics, config)
+  File "/home/selinawisco/selina_main/asr/sel_wav2vec2_asr_main/train_asr.py", line 45, in train_asr
+    trainer.train()
+  File "/home/selinawisco/.venv/lib/python3.10/site-packages/transformers/trainer.py", line 1938, in train
+    return inner_training_loop(
+  File "/home/selinawisco/.venv/lib/python3.10/site-packages/transformers/trainer.py", line 2279, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/selinawisco/.venv/lib/python3.10/site-packages/transformers/trainer.py", line 3318, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/selinawisco/selina_main/asr/sel_wav2vec2_asr_main/CustomTrainer.py", line 47, in compute_loss
+    outputs = model(**inputs)
+  File "/home/selinawisco/.venv/lib/python3.10/site-packages/transformers/feature_extraction_utils.py", line 89, in __getitem__
+    raise KeyError("Indexing with integers is not available when using Python based feature extractors")
+KeyError: 'Indexing with integers is not available when using Python based feature extractors'

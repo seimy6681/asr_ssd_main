@@ -1,0 +1,66 @@
+  0%|                                                                                     | 0/31260 [00:00<?, ?it/s]/home/selinawisco/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:157: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/selinawisco/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:157: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+hi
+  0%|                                                                         | 1/31260 [00:26<229:14:38, 26.40s/it]/home/selinawisco/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:157: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+  0%|                                                                          | 7/31260 [00:27<10:34:58,  1.22s/it]
+hi
+hi
+hi
+hi
+hi
+hi
+hi
+hi
+hi
+hi
+hi
+hi
+hi
+hi
+  0%|                                                                          | 15/31260 [00:29<2:17:11,  3.80it/s]Traceback (most recent call last):
+  File "/home/selinawisco/selina_main/asr/asr_main/main.py", line 298, in <module>
+    train_asr(model, data_collator, processor, tokenizer,feature_extractor, train_dataset, test_dataset, compute_metrics, config)
+  File "/home/selinawisco/selina_main/asr/asr_main/train_asr.py", line 45, in train_asr
+    trainer.train()
+  File "/home/selinawisco/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1948, in train
+    return inner_training_loop(
+  File "/home/selinawisco/.local/lib/python3.10/site-packages/transformers/trainer.py", line 2361, in _inner_training_loop
+    model.zero_grad()
+  File "/home/selinawisco/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2454, in zero_grad
+    for p in self.parameters():
+  File "/home/selinawisco/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2193, in parameters
+    for name, param in self.named_parameters(recurse=recurse):
+  File "/home/selinawisco/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2226, in named_parameters
+    yield from gen
+  File "/home/selinawisco/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2161, in _named_members
+    for module_prefix, module in modules:
+  File "/home/selinawisco/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2373, in named_modules
+    yield from module.named_modules(memo, submodule_prefix, remove_duplicate)
+  File "/home/selinawisco/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2373, in named_modules
+    yield from module.named_modules(memo, submodule_prefix, remove_duplicate)
+  File "/home/selinawisco/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2373, in named_modules
+    yield from module.named_modules(memo, submodule_prefix, remove_duplicate)
+  [Previous line repeated 2 more times]
+  File "/home/selinawisco/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 2370, in named_modules
+    if module is None:
+KeyboardInterrupt
+hi
+hi
+hi
+hi
+{'loss': 198.7577, 'grad_norm': 54.19306945800781, 'learning_rate': 3.6e-06, 'epoch': 0.01}
+hi
+hi
+hi
+hi
+hi
+hi
+hi
+hi
+hi
+hi
+hi
+hi

@@ -1,0 +1,27 @@
+  0%|                                                                                                                                                                                                    | 0/31260 [00:00<?, ?it/s]/home/selinawisco/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:157: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/home/selinawisco/selina_main/asr/asr_main/main.py", line 298, in <module>
+    train_asr(model, data_collator, processor, tokenizer,feature_extractor, train_dataset, test_dataset, compute_metrics, config)
+  File "/home/selinawisco/selina_main/asr/asr_main/train_asr.py", line 45, in train_asr
+    trainer.train()
+  File "/home/selinawisco/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1948, in train
+    return inner_training_loop(
+  File "/home/selinawisco/.local/lib/python3.10/site-packages/transformers/trainer.py", line 2289, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/selinawisco/.local/lib/python3.10/site-packages/transformers/trainer.py", line 3328, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/selinawisco/selina_main/asr/asr_main/CustomTrainer.py", line 57, in compute_loss
+    mask = torch.isin(loss_feature, difficult_words)
+  File "/home/selinawisco/selina_main/asr/asr_main/CustomTrainer.py", line 57, in compute_loss
+    mask = torch.isin(loss_feature, difficult_words)
+  File "_pydevd_bundle/pydevd_cython.pyx", line 1457, in _pydevd_bundle.pydevd_cython.SafeCallWrapper.__call__
+  File "_pydevd_bundle/pydevd_cython.pyx", line 701, in _pydevd_bundle.pydevd_cython.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython.pyx", line 1152, in _pydevd_bundle.pydevd_cython.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython.pyx", line 1135, in _pydevd_bundle.pydevd_cython.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython.pyx", line 312, in _pydevd_bundle.pydevd_cython.PyDBFrame.do_wait_suspend
+  File "/home/selinawisco/.local/lib/python3.10/site-packages/debugpy/_vendored/pydevd/pydevd.py", line 2070, in do_wait_suspend
+    keep_suspended = self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread, frames_tracker)
+  File "/home/selinawisco/.local/lib/python3.10/site-packages/debugpy/_vendored/pydevd/pydevd.py", line 2106, in _do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt

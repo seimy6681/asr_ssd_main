@@ -1,0 +1,139 @@
+  0%|                                                                                                                                                                                                              | 0/31260 [00:00<?, ?it/s]/home/selinawisco/.venv/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:157: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+
+  0%|                                                                                                                                                                                                   | 11/31260 [00:03<1:51:47,  4.66it/s]
+{'loss': 30.2572, 'grad_norm': 9.876008987426758, 'learning_rate': 4.8e-06, 'epoch': 0.01}
+
+  0%|▏                                                                                                                                                                                                  | 22/31260 [00:05<1:36:16,  5.41it/s]
+
+  0%|▏                                                                                                                                                                                                  | 34/31260 [00:07<1:29:21,  5.82it/s]
+
+  0%|▎                                                                                                                                                                                                  | 46/31260 [00:09<1:21:41,  6.37it/s]
+
+  0%|▎                                                                                                                                                                                                  | 56/31260 [00:11<1:43:47,  5.01it/s]
+
+  0%|▍                                                                                                                                                                                                  | 67/31260 [00:13<1:38:24,  5.28it/s]
+
+  0%|▍                                                                                                                                                                                                  | 78/31260 [00:15<1:28:29,  5.87it/s]
+
+  0%|▌                                                                                                                                                                                                  | 91/31260 [00:17<1:24:22,  6.16it/s]
+
+  0%|▌                                                                                                                                                                                                 | 100/31260 [00:19<1:17:56,  6.66it/s]
+  0%|▌                                                                                                                                                                                                 | 100/31260 [00:19<1:17:56,  6.66it/s]/home/selinawisco/.venv/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:157: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+  0%|▋                                                                                                                                                                                                 | 107/31260 [00:23<2:39:29,  3.26it/s]
+
+  0%|▋                                                                                                                                                                                                 | 118/31260 [00:25<1:37:30,  5.32it/s]
+
+  0%|▊                                                                                                                                                                                                 | 130/31260 [00:27<1:27:34,  5.92it/s]
+
+  0%|▉                                                                                                                                                                                                 | 142/31260 [00:29<1:21:41,  6.35it/s]
+{'loss': 3.8924, 'grad_norm': 3.894110918045044, 'learning_rate': 8.28e-05, 'epoch': 0.13}
+
+
+  1%|█                                                                                                                                                                                                 | 164/31260 [00:33<1:38:07,  5.28it/s]
+{'loss': 3.8902, 'grad_norm': 1.338731288909912, 'learning_rate': 9.479999999999999e-05, 'epoch': 0.15}
+
+  1%|█                                                                                                                                                                                                 | 176/31260 [00:35<1:28:04,  5.88it/s]
+
+  1%|█▏                                                                                                                                                                                                | 188/31260 [00:37<1:22:29,  6.28it/s]
+
+  1%|█▏                                                                                                                                                                                                | 200/31260 [00:39<1:18:15,  6.62it/s]
+  1%|█▏                                                                                                                                                                                                | 200/31260 [00:39<1:18:15,  6.62it/s]/home/selinawisco/.venv/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:157: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+  1%|█▎                                                                                                                                                                                                | 205/31260 [00:43<3:38:08,  2.37it/s]
+
+  1%|█▎                                                                                                                                                                                                | 216/31260 [00:45<1:38:32,  5.25it/s]
+
+  1%|█▍                                                                                                                                                                                                | 228/31260 [00:48<1:24:51,  6.09it/s]
+
+  1%|█                                                                                                                                           | 241/31260 [00:50<1:20:12,  6.45it/s]
+
+  1%|█▏                                                                                                                                          | 253/31260 [00:52<1:45:02,  4.92it/s]
+
+  1%|█▋                                                                                                                                                                                                | 263/31260 [00:54<1:37:00,  5.33it/s]
+
+  1%|█▋                                                                                                                                                                                                | 274/31260 [00:55<1:29:12,  5.79it/s]
+{'loss': 3.4697, 'grad_norm': 1.0309538841247559, 'learning_rate': 0.0001608, 'epoch': 0.26}
+
+  1%|█▊                                                                                                                                                                                                | 287/31260 [00:58<1:21:00,  6.37it/s]
+
+  1%|█▎                                                                                                                                          | 300/31260 [00:59<1:16:37,  6.73it/s]
+  1%|█▎                                                                                                                                          | 300/31260 [00:59<1:16:37,  6.73it/s]/home/selinawisco/.venv/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:157: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+
+  1%|█▍                                                                                                                                          | 314/31260 [01:06<1:40:35,  5.13it/s]
+{'loss': 3.5066, 'grad_norm': 2.2413525581359863, 'learning_rate': 0.0001848, 'epoch': 0.3}
+
+  1%|█▍                                                                                                                                          | 326/31260 [01:08<1:26:03,  5.99it/s]
+
+  1%|█▌                                                                                                                                          | 338/31260 [01:10<1:21:13,  6.34it/s]
+
+  1%|█▌                                                                                                                                          | 351/31260 [01:12<1:31:30,  5.63it/s]
+
+  1%|█▌                                                                                                                                          | 361/31260 [01:14<1:38:53,  5.21it/s]
+
+  1%|█▋                                                                                                                                          | 373/31260 [01:16<1:28:27,  5.82it/s]
+
+  1%|█▋                                                                                                                                          | 385/31260 [01:18<1:20:35,  6.38it/s]
+{'loss': 3.1704, 'grad_norm': 1.1774091720581055, 'learning_rate': 0.00022679999999999998, 'epoch': 0.36}
+
+  1%|█▊                                                                                                                                          | 398/31260 [01:20<1:14:48,  6.88it/s]
+
+  1%|█▊                                                                                                                                          | 400/31260 [01:20<1:15:39,  6.80it/s]/home/selinawisco/.venv/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:157: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+  1%|█▊                                                                                                                                          | 402/31260 [01:24<7:27:52,  1.15it/s]
+
+  1%|█▊                                                                                                                                          | 413/31260 [01:26<1:42:10,  5.03it/s]
+
+  1%|█▉                                                                                                                                          | 424/31260 [01:28<1:26:40,  5.93it/s]
+
+  1%|█▉                                                                                                                                          | 437/31260 [01:30<1:19:49,  6.43it/s]
+
+  1%|██                                                                                                                                          | 450/31260 [01:32<1:14:16,  6.91it/s]
+
+  1%|██                                                                                                                                          | 460/31260 [01:34<1:38:23,  5.22it/s]
+
+  2%|██                                                                                                                                          | 472/31260 [01:36<1:27:11,  5.88it/s]
+
+  2%|██▏                                                                                                                                         | 484/31260 [01:38<1:20:36,  6.36it/s]
+{'loss': 3.016, 'grad_norm': 1.5056082010269165, 'learning_rate': 0.0002868, 'epoch': 0.46}
+
+  2%|██▏                                                                                                                                         | 498/31260 [01:40<1:13:42,  6.96it/s]
+
+  2%|██▏                                                                                                                                         | 500/31260 [01:40<1:14:54,  6.84it/s]/home/selinawisco/.venv/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:157: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+
+  2%|██▎                                                                                                                                         | 512/31260 [01:46<1:44:57,  4.88it/s]
+
+  2%|██▎                                                                                                                                         | 524/31260 [01:48<1:25:00,  6.03it/s]
+{'loss': 2.9714, 'grad_norm': 1.0206509828567505, 'learning_rate': 0.00029982444733420025, 'epoch': 0.5}
+
+  2%|██▍                                                                                                                                         | 537/31260 [01:50<1:19:27,  6.44it/s]
+
+  2%|██▍                                                                                                                                         | 550/31260 [01:52<1:14:07,  6.91it/s]
+
+  2%|██▌                                                                                                                                         | 560/31260 [01:54<1:37:49,  5.23it/s]
+
+  2%|██▌                                                                                                                                         | 571/31260 [01:56<1:28:16,  5.79it/s]
+
+  2%|██▌                                                                                                                                         | 584/31260 [01:58<1:20:42,  6.33it/s]
+{'loss': 2.8688, 'grad_norm': 1.161141276359558, 'learning_rate': 0.0002992392717815344, 'epoch': 0.56}
+
+  2%|██▋                                                                                                                                         | 597/31260 [02:00<1:13:52,  6.92it/s]
+
+  2%|██▋                                                                                                                                         | 600/31260 [02:00<1:14:48,  6.83it/s]/home/selinawisco/.venv/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:157: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+
+  2%|██▋                                                                                                                                         | 612/31260 [02:06<1:45:48,  4.83it/s]
+
+  2%|██▊                                                                                                                                         | 623/31260 [02:08<1:26:39,  5.89it/s]
+
+  2%|██▊                                                                                                                                         | 636/31260 [02:10<1:18:34,  6.50it/s]
+{'loss': 2.7096, 'grad_norm': 1.3376026153564453, 'learning_rate': 0.00029875162548764626, 'epoch': 0.6}
+
+  2%|██▉                                                                                                                                         | 650/31260 [02:12<1:13:28,  6.94it/s]
+
+  2%|██▉                                                                                                                                         | 660/31260 [02:14<1:36:24,  5.29it/s]
+
+  2%|███                                                                                                                                         | 671/31260 [02:16<1:28:45,  5.74it/s]
